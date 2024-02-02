@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,700;1,300&display=swap");
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.header__title {
+    border: 3px solid black;
+    padding: 0.5rem;
+}
+
+.header__title-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.header__buttons {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+/* Todo */
+
+.todo-container {
+    display: flex;
+    gap: 4rem;
+    padding-top: 2rem;
+}
+
+/* Todo Booklist */
+
+.todo__booklist {
+    padding: 1rem;
+    border: 2px solid black;
+    list-style-type: none;
+}
+
+/* Todo List */
+
+.todo__list-container {
+    padding: 1rem;
+    margin-top: 1ch;
+    width: 73.6%;
+    border: 2px solid black;
+}
+
+.todo__list {
+    list-style-type: none;
+} 
+
+/* Utilities */
+
+.section-container {
+    width: 60%;
+    margin-inline: auto;
+}
