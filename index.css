@@ -40,6 +40,42 @@ body {
     align-items: center;
 }
 
+@media(max-width: 768px) {
+    .header__title-text {
+        font-size: 2rem;
+    }
+    .header__title {
+        border: 2px solid black;
+    }
+    .header__buttons {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 425px) {
+    .header__title-text {
+        font-size: 1.5rem;
+    }
+    .header__title {
+        border: 1.5px solid black;
+    }
+    .header__buttons {
+        font-size: 11px;
+    }
+}
+
+@media(max-width: 425px) {
+    .header__title-text {
+        font-size: 1.5rem;
+    }
+    .header__title {
+        border: 1.5px solid black;
+    }
+    .header__buttons {
+        font-size: 11px;
+    }
+}
+
 /* Todo */
 
 .todo-container {
@@ -85,5 +121,11 @@ body {
 @media(max-width: 768px) {
     .section-container {
         width: 80%;
+    }
+}
+
+@media(max-width: 425px) {
+    .section-container {
+        width: 90%;
     }
 }
