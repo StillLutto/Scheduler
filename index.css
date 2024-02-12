@@ -75,3 +75,15 @@ body {
     width: 60%;
     margin-inline: auto;
 }
+
+@media(max-width: 1024px) {
+    .section-container {
+        width: 70%;
+    }
+}
+
+@media(max-width: 768px) {
+    .section-container {
+        width: 80%;
+    }
+}
