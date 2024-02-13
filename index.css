@@ -48,6 +48,7 @@ body {
         border: 2px solid black;
     }
     .header__buttons {
+        gap: 0.9rem;
         font-size: 14px;
     }
 }
@@ -60,19 +61,21 @@ body {
         border: 1.5px solid black;
     }
     .header__buttons {
+        gap: 0.6rem;
         font-size: 11px;
     }
 }
 
-@media(max-width: 425px) {
+@media(max-width: 375px) {
     .header__title-text {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     .header__title {
         border: 1.5px solid black;
     }
     .header__buttons {
-        font-size: 11px;
+        gap: 0.6rem;
+        font-size: 10px;
     }
 }
 
@@ -84,12 +87,61 @@ body {
     padding-top: 2rem;
 }
 
+@media(max-width: 768px) {
+    .todo-container {
+        gap: 2rem;
+    }
+}
+
+@media(max-width: 375px) {
+    .todo-container {
+        gap: 1rem;
+    }
+}
+
 /* Todo Booklist */
 
 .todo__booklist {
     padding: 1rem;
     border: 2px solid black;
     list-style-type: none;
+    padding-right: 12rem;
+}
+
+.todo__booklist-title {
+    font-size: 1.8rem;
+}
+
+@media(max-width: 768px) {
+    .todo__booklist {
+        padding-right: 8rem;
+        border: 1.5px solid black;
+    }
+    .todo__booklist-title {
+        font-size: 1.3rem;
+    }
+}
+
+@media(max-width: 425px) {
+    .todo__booklist {
+        padding: 0.8rem;
+        padding-right: 6rem;
+        border: 1.2px solid black;
+    }
+    .todo__booklist-title {
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 375px) {
+    .todo__booklist {
+        font-size: 0.85rem;
+        padding-right: 5.5rem;
+        border: 1px solid black;
+    }
+    .todo__booklist-title {
+        font-size: 0.9rem;
+    }
 }
 
 /* Todo List */
@@ -101,9 +153,49 @@ body {
     border: 2px solid black;
 }
 
+.todo__list-title {
+    font-size: 2rem;
+}
+
 .todo__list {
     list-style-type: none;
-} 
+}
+
+@media(max-width: 1024px) {
+    .todo__list-title {
+        font-size: 1.8rem;
+    }
+}
+
+@media(max-width: 768px) {
+    .todo__list-container {
+        border: 1.5px solid black;
+    }
+    .todo__list {
+        padding-right: 8rem;
+    }
+    .todo__list-title {
+        font-size: 1.6rem;
+    }
+}
+
+@media(max-width: 425px) {
+    .todo__list-container {
+        border: 1.2px solid black;
+    }
+    .todo__list-title {
+        font-size: 1.2rem;
+    }
+}
+
+@media(max-width: 375px) {
+    .todo__list-container {
+        border: 1px solid black;
+    }
+    .todo__list-title {
+        font-size: 1.2rem;
+    }
+}
 
 /* Utilities */
 
@@ -127,5 +219,11 @@ body {
 @media(max-width: 425px) {
     .section-container {
         width: 90%;
+    }
+}
+
+@media(max-width: 375px) {
+    .section-container {
+        width: 95%;
     }
 }
