@@ -158,7 +158,7 @@ body {
 }
 
 .todo__list {
-    list-style-type: none;
+    padding-left: 16px;
 }
 
 @media(max-width: 1024px) {
