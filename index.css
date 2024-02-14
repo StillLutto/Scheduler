@@ -99,47 +99,47 @@ body {
     }
 }
 
-/* Todo Booklist */
+/* Todo Tags */
 
-.todo__booklist {
+.todo__tags {
     padding: 1rem;
     border: 2px solid black;
     list-style-type: none;
     padding-right: 12rem;
 }
 
-.todo__booklist-title {
+.todo__tags-title {
     font-size: 1.8rem;
 }
 
 @media(max-width: 768px) {
-    .todo__booklist {
+    .todo__tags {
         padding-right: 8rem;
         border: 1.5px solid black;
     }
-    .todo__booklist-title {
+    .todo__tags-title {
         font-size: 1.3rem;
     }
 }
 
 @media(max-width: 425px) {
-    .todo__booklist {
+    .todo__tags {
         padding: 0.8rem;
         padding-right: 6rem;
         border: 1.2px solid black;
     }
-    .todo__booklist-title {
+    .todo__tags-title {
         font-size: 1rem;
     }
 }
 
 @media(max-width: 375px) {
-    .todo__booklist {
+    .todo__tags {
         font-size: 0.85rem;
         padding-right: 5.5rem;
         border: 1px solid black;
     }
-    .todo__booklist-title {
+    .todo__tags-title {
         font-size: 0.9rem;
     }
 }
