@@ -1,5 +1,5 @@
 import Header from "./Header.tsx";
-import Todo from "./Todo.tsx";
+import Todo from "./todo/Todo.tsx";
 
 function App() {
     return (

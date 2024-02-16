@@ -1,0 +1,23 @@
+.todo-container {
+    display: flex;
+    gap: 4rem;
+    padding-top: 2rem;
+}
+
+@media(max-width: 768px) {
+    .todo-container {
+        gap: 2rem;
+    }
+}
+
+@media(max-width: 425px) {
+    .todo-container {
+        gap: 1rem;
+    }
+}
+
+@media(max-width: 375px) {
+    .todo-container {
+        display: block;
+    }
+}
