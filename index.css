@@ -93,9 +93,15 @@ body {
     }
 }
 
-@media(max-width: 375px) {
+@media(max-width: 425px) {
     .todo-container {
         gap: 1rem;
+    }
+}
+
+@media(max-width: 375px) {
+    .todo-container {
+        display: block;
     }
 }
 
@@ -140,7 +146,8 @@ body {
         border: 1px solid black;
     }
     .todo__tags-title {
-        font-size: 0.9rem;
+        text-align: center; 
+        font-size: 1.4rem;
     }
 }
 
@@ -162,7 +169,7 @@ body {
 }
 
 @media(max-width: 1024px) {
-    .todo__list-title {
+    .todo__list-title { 
         font-size: 1.8rem;
     }
 }
@@ -193,7 +200,8 @@ body {
         border: 1px solid black;
     }
     .todo__list-title {
-        font-size: 1.2rem;
+        text-align: center;
+        font-size: 1.5rem;
     }
 }
 
@@ -213,17 +221,20 @@ body {
 @media(max-width: 768px) {
     .section-container {
         width: 80%;
+        margin-inline: auto;
     }
 }
 
-@media(max-width: 425px) {
+@media(max-width: 485px) {
     .section-container {
         width: 90%;
+        margin-inline: auto;
     }
 }
 
 @media(max-width: 375px) {
     .section-container {
         width: 95%;
+        margin-inline: auto;
     }
 }
