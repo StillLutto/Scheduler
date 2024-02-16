@@ -5,7 +5,23 @@
     padding-right: 12rem;
 }
 
-.todo__tags-title {
+.todo__tags-header {
+    display: flex;
+    align-items: baseline;
+}
+
+.todo__tags-header-title {
+    font-size: 1.8rem;
+}
+
+.todo__tags-header-button {
+    background: none;
+    border: none;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.button-icon {
     font-size: 1.8rem;
 }
 
@@ -14,7 +30,10 @@
         padding-right: 8rem;
         border: 1.5px solid black;
     }
-    .todo__tags-title {
+    .todo__tags-header-title {
+        font-size: 1.3rem;
+    }
+    .button-icon {
         font-size: 1.3rem;
     }
 }
@@ -25,7 +44,10 @@
         padding-right: 6rem;
         border: 1.2px solid black;
     }
-    .todo__tags-title {
+    .todo__tags-header-title {
+        font-size: 1rem;
+    }
+    .button-icon {
         font-size: 1rem;
     }
 }
@@ -36,8 +58,19 @@
         padding-right: 5.5rem;
         border: 1px solid black;
     }
-    .todo__tags-title {
+    .todo__tags-header {
+        display: block;
+    }
+    .todo__tags-header-title {
         text-align: center; 
+        font-size: 1.4rem;
+    }
+    .todo__tags-header-button {
+        display: block;
+        margin-inline: auto;
+        margin-top: 8px;
+    }
+    .button-icon {
         font-size: 1.4rem;
     }
 }
