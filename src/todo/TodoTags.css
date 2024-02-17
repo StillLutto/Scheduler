@@ -8,6 +8,7 @@
 .todo__tags-header {
     display: flex;
     align-items: baseline;
+    margin-bottom: 4px;
 }
 
 .todo__tags-header-title {
@@ -21,19 +22,12 @@
     cursor: pointer;
 }
 
-.button-icon {
-    font-size: 1.8rem;
-}
-
 @media(max-width: 768px) {
     .todo__tags {
         padding-right: 8rem;
         border: 1.5px solid black;
     }
     .todo__tags-header-title {
-        font-size: 1.3rem;
-    }
-    .button-icon {
         font-size: 1.3rem;
     }
 }
@@ -45,9 +39,6 @@
         border: 1.2px solid black;
     }
     .todo__tags-header-title {
-        font-size: 1rem;
-    }
-    .button-icon {
         font-size: 1rem;
     }
 }
@@ -69,8 +60,5 @@
         display: block;
         margin-inline: auto;
         margin-top: 8px;
-    }
-    .button-icon {
-        font-size: 1.4rem;
     }
 }

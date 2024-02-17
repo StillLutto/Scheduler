@@ -5,7 +5,9 @@ function TodoTags() {
         <div className="todo__tags-container">
             <div className="todo__tags-header">
                 <h1 className="todo__tags-header-title">To-Do Tags</h1>
-                <button className="todo__tags-header-button"><i className="fa-solid fa-plus button-icon"></i></button>
+                <div className="title-button-container">
+                <a href="/" className="title-button"><i className="fa-solid fa-plus"></i></a>
+                </div>
             </div>
             <ul className="todo__tags">
                 <li>hi</li>

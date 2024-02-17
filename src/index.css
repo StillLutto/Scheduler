@@ -47,3 +47,43 @@ body {
       margin-inline: auto;
   }
 }
+
+.title-button-container {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  background-color: #3361dd;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: 2px;
+}
+
+.title-button {
+  color: white;
+  margin: auto;
+  padding: 0;
+}
+
+.title-button i {
+  font-size: 1.8rem;
+  margin: 0;
+  padding: 0;
+}
+
+@media(max-width: 768px) {
+  .title-button {
+      font-size: 1.3rem;
+  }
+}
+
+@media(max-width: 425px) {
+  .title-button {
+      font-size: 1rem;
+  }
+}
+
+@media(max-width: 375px) {
+  .title-button {
+      font-size: 1.4rem;
+  }
+}
