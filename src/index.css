@@ -59,9 +59,10 @@ body {
 }
 
 .title-button {
+  text-align:center;
   color: white;
   margin: auto;
-  padding: 0;
+  margin-top: 5px;
 }
 
 .title-button i {
